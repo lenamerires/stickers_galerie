@@ -87,7 +87,7 @@ iframe{
     padding-top:50px;
     margin-left: 10px;
     margin-bottom: 20px;
-    /* visibility: hidden; */
+    visibility: hidden; 
 }
 
 #img1{
@@ -132,3 +132,4 @@ iframe{
     position: absolute;
     top: 0px;
 }
+
