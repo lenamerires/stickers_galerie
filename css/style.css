@@ -1,0 +1,134 @@
+*{
+     --duree_anim : 1s;
+     --duree_video : 15s;
+     --couleur_bouton_scan :  rgb(142, 170, 194); 
+     --hauteur_boutons : 200px
+}
+
+
+.hidden{
+    visibility: hidden;
+}
+
+html{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+
+body{
+    position: relative;
+    width: 375px;
+height: 100vh;
+background-color: aliceblue;
+display: flex;
+flex-direction: column;
+background-image: url('../fond.jpg');
+background-size: contain;
+}
+
+#reader{
+    height: 100%;
+    width: 100% !important;
+    border: none !important;
+    z-index: 1;
+    /* background-color: black; */
+}
+
+
+iframe{
+    height: 100%;
+    width: 100%;
+    animation-name: 'myAnimation';
+    animation-delay: var(--duree_video);
+    animation-duration: var(--durée_anim);
+    animation-fill-mode: forwards;
+    position: absolute;
+  top: 0px;
+  pointer-events: none;
+}
+
+
+@keyframes myAnimation {
+  from {opacity: 1;}
+  to {opacity: 0;
+        display: none;}
+}
+
+#button, button{
+    height: var(--hauteur_boutons);
+    background-color: var(--couleur_bouton_scan);
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#reader > div > img{
+    display: none;
+}
+
+#reader__dashboard_section{
+    background-color: var(--couleur_bouton_scan);
+}
+
+.sticker > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.sticker{
+    position: absolute;
+    height: 173px;
+    width: 80px;
+    padding-top:50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    /* visibility: hidden; */
+}
+
+#img1{
+    top: 186px;
+    left: 205px;
+}
+
+#img1 >img{
+    width: 130%;
+}
+
+#img2{
+    top: 515px;
+    left: 110px;
+}
+
+#img2 >img{
+    width: 150%;
+}
+
+#img3{
+    top: 380px;
+    left: 8px;
+}
+
+#img3 >img{
+    width: 190%;
+}
+
+#img4{
+    top: 4px;
+    left: 60px;
+}
+
+#img4 >img{
+    width: 100%;
+}
+
+.stickerConteneur{
+
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+}

@@ -1,1 +1,1 @@
-# stickers_galerie
+# QrCodeScannerFinal
