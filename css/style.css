@@ -1,6 +1,6 @@
 *{
      --duree_anim : 1s;
-     --duree_video : 15s;
+     --duree_video : 17s;
      --couleur_bouton_scan :  rgb(142, 170, 194); 
      --hauteur_boutons : 200px
 }
@@ -132,4 +132,5 @@ iframe{
     position: absolute;
     top: 0px;
 }
+
 
