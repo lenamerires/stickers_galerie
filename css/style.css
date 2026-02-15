@@ -109,21 +109,21 @@ iframe{
 }
 
 #img3{
-    top: 380px;
-    left: 8px;
+    top: 382px;
+    left: 34px;
 }
 
 #img3 >img{
-    width: 190%;
+    width: 130%;
 }
 
 #img4{
-    top: 4px;
-    left: 60px;
+    top: -23px;
+    left: 10px;
 }
 
 #img4 >img{
-    width: 100%;
+    width: 240%;
 }
 
 .stickerConteneur{
@@ -150,4 +150,5 @@ iframe{
 .sticker {
   animation: gigote 2s infinite ease-in-out;
 }
+
 
